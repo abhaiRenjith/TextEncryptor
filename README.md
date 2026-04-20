@@ -60,14 +60,7 @@ The goal was to strengthen understanding of:
 ## Project Structure
 
 
-src/
-├── app/ → Application entry point
-├── gui/ → Graphical user interface
-├── menu/ → Console interface
-├── factory/ → CipherFactory (object creation)
-├── service/ → Cipher implementations
-├── exception/ → Test runner
----
+<img width="1536" height="1024" alt="accb26fd-c361-45f8-950c-2c0359724be4" src="https://github.com/user-attachments/assets/5724eda3-bdd1-4cb9-b411-3fa3f698393a" />
 
 ## How It Works
 
