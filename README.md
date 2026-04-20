@@ -74,10 +74,6 @@ public interface CipherService {
 ```
 The CipherFactory selects the appropriate algorithm at runtime based on user input, keeping the system modular and scalable.
 
-
-<img width="1536" height="1024" alt="accb26fd-c361-45f8-950c-2c0359724be4" src="https://github.com/user-attachments/assets/7f592763-dc69-4930-ad6e-de8b834ccbbb" />
-
-
 ## Notes
 
 - RSA is intended for small data, not large text  
