@@ -81,43 +81,69 @@ public interface CipherService {
 ```
 The CipherFactory selects the appropriate algorithm at runtime based on user input, keeping the system modular and scalable.
 
-Algorithms Overview
-Algorithm	Type	Description
-Caesar	Classical	Fixed letter shift
-Vigenère	Classical	Keyword-based shifting
-XOR	Bitwise	Simple reversible encryption
-AES	Symmetric	Modern secure encryption
-RSA	Asymmetric	Public/private key encryption
-Notes
-RSA is intended for small data, not large text
-AES is used for bulk encryption
-XOR is included for educational purposes and is not secure
-How to Run
+---
+
+## Algorithms Overview
+
+| Algorithm | Type        | Description                    |
+|----------|------------|--------------------------------|
+| Caesar   | Classical  | Fixed letter shift             |
+| Vigenère | Classical  | Keyword-based shifting         |
+| XOR      | Bitwise    | Simple reversible encryption   |
+| AES      | Symmetric  | Modern secure encryption       |
+| RSA      | Asymmetric | Public/private key encryption  |
+
+---
+
+## Notes
+
+- RSA is intended for small data, not large text  
+- AES is used for bulk encryption  
+- XOR is for educational purposes only (not secure)  
+
+---
+
+## How to Run
 
 Run GUI:
 
 Run Main.java
 
+
 Run Tests:
 
 Run CipherTestRunner.java
-Testing
+
+
+---
+
+## Testing
 
 The test runner:
+- Executes 12 test cases per algorithm  
+- Validates encryption and decryption cycles  
+- Throws an error if any test fails  
 
-Executes 12 test cases per algorithm
-Validates encryption and decryption cycles
-Throws an error if any test fails
-Technologies Used
-Java
-Java Swing
-Java Cryptography Architecture (JCA)
-Object-Oriented Programming
-Future Improvements
-File encryption support
-Hybrid encryption (RSA + AES)
-Clipboard integration
-UI enhancements (FlatLaf)
-Author
+---
+
+## Technologies Used
+
+- Java  
+- Java Swing  
+- Java Cryptography Architecture (JCA)  
+- Object-Oriented Programming  
+
+---
+
+## Future Improvements
+
+- File encryption support  
+- Hybrid encryption (RSA + AES)  
+- Clipboard integration  
+- UI improvements (FlatLaf)  
+
+---
+
+## Author
 
 Developed as part of a computer science and cybersecurity learning project focused on encryption systems and secure software design.
